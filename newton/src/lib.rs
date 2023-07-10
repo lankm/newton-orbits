@@ -1,8 +1,9 @@
 /* vector definitions */
 // TODO: change to integers
-pub struct Pos3d(f64, f64, f64);
-pub struct Vel3d(f64, f64, f64);
 
+pub mod vector;
+
+use vector::*;
 pub struct Object {
     pub pos: Pos3d,
     pub vel: Vel3d,
